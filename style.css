@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+section{
+    margin-top: 20px;
+}
+div{
+    background-color: #c1c1c1;
+}
+
+.m-top{
+    margin-top: 30px;
+}
+.m-bottom{
+    margin-bottom: 150px;
+}

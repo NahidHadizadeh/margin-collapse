@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Margin Collapse</title>
+</head>
+<body>
+<section>
+    <h2>Adjacent siblings</h2>
+       <p class="m-top">it is margin bottom</p>
+    <p class="m-bottom">it is margin top</p> 
+</section>
+<hr>
+<!-- ================================ -->
+<section>
+    <h2>The collapsed margin ends up outside the parent.</h2>
+    <div >
+        <p class="m-top" >this is margin top</p>
+        <p class="m-bottom">this is margin bottom</p>
+    </div>    
+</section>
+<hr>  
+<!-- ================================ -->
+<section>
+    <h2>empty block</h2>
+    <p>There is an empty p tag below me</p>
+    <p class="m-bottom m-top"></p>
+    <p>There is an empty p tag above me</p>    
+</section>
+</body>
+</html>
